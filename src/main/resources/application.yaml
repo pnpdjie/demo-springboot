@@ -2,3 +2,15 @@ server:
   port: 8088
   servlet:
     context-path: /Demo
+
+
+spring:
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+  devtools:
+    restart:
+      enabled: true
+  thymeleaf:
+    cache: false
